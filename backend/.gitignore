@@ -1,0 +1,9 @@
+# Dependencies
+node_modules
+
+# coverage
+coverage
+
+# Environment varibales
+*.env*
+!*.env*.example

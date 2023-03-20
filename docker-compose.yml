@@ -1,0 +1,12 @@
+# version: '3'
+
+# services:
+#   db:
+#     image: postgres:latest
+#     container_name: mi-booking-postgres
+#   backend:
+#     image: node:latest
+#     container_name: mi-booking-backend
+#   frontend:
+#     image: node:latest
+#     container_name: mi-booking-frontend

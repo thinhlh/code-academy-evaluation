@@ -1,0 +1,14 @@
+{
+    "name": "mi-booking",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "install": "npm i --prefix ./frontend ; npm i --prefix ./backend",
+        "start:backend:dev":"npm run --prefix ./backend start:dev",
+        "start:backend:prod":"npm run --prefix ./backend start:prod",
+        "start:frontend:dev":"npm run --prefix ./frontend start",
+        "start:frontend:prod":"npm run --prefix ./frontend build",
+        "start:dev":"npm run start:backend:dev | npm run start:frontend:dev",
+        "migrate":"npm run --prefix ./backend migrate"
+    }
+}

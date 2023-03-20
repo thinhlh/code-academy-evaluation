@@ -1,0 +1,34 @@
+.booking-page-seats-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 5% 5%;
+}
+
+.booking-page-actions {
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    .booking-page-actions-seats {
+        max-width: 50%;
+        word-wrap: break-word;
+    }
+
+    button {
+        padding: 20px 50px;
+        background-color: #00FF00;
+        border: none;
+        font-weight: bold;
+        margin-left: 5%;
+    }
+
+    button:disabled {
+        padding: 20px 50px;
+        background-color: #DDDDDD;
+        border: none;
+        font-weight: bold;
+        margin-left: 5%;
+    }
+}

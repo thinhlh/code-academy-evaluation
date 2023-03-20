@@ -1,0 +1,52 @@
+.movie-container {
+    padding: 10px;
+    display: flex;
+    width: 400px;
+    border: 1px black solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.movie-container-disabled {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    width: 400px;
+    margin-top: 10px;
+    background-color: #DDDDDD;
+    align-items: center;
+}
+
+.movie-metadata {
+    width: 100%;
+
+    .movie-title {
+        font-weight: bold;
+        font-size: large;
+    }
+}
+
+.movie-image {
+    height: 150px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.movie-seats-book {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+        padding: 10px 40px;
+    }
+
+    button:disabled {
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666;
+        font-weight: bold;
+    }
+}
